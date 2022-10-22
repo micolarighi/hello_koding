@@ -1,14 +1,9 @@
 $(document).ready(function(){
-$(".preloader").slideUp(7000);
+$(".preloader").slideUp(200);
 })
 
-$(document).on("scroll", function() {
-    if ($(document).scrollTop() > 86) {
-        $("#banner").addClass("shrink");
-    } else {
-        $("#banner").removeClass("shrink");
-    }
-});
+$("#banner").addClass("shrink");
+
 
 $(document).ready(function() {
     var scroll_pos = 0;
