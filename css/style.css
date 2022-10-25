@@ -7,6 +7,10 @@ body {
     overflow-x: hidden !important;
 }
 
+.btn-primary {
+    background-color: rgb(57, 57, 247) !important;
+}
+
 html {
     scroll-behavior: smooth;
 }
