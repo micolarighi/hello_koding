@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$(".preloader").slideUp(7000);
+$(".preloader").slideUp(1000);
 })
 
 $("#banner").addClass("shrink");
