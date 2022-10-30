@@ -218,6 +218,13 @@ i {
     left: 50%;
 }
 
+.news-container {
+
+}
+.news-title {
+    width: 50%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
