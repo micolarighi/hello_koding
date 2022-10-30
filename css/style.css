@@ -131,12 +131,12 @@ html {
 }
 
 .condfess-container,
-.container#womencondfe,
+.container#team,
 .container-fluid #about {
     overflow: hidden;
 }
 
-#womencondfe img {
+#team img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -144,7 +144,7 @@ html {
     cursor: pointer;
 }
 
-#womencondfe img:hover {
+#team img:hover {
     filter: grayscale(0%);
 }
 
