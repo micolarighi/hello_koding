@@ -4,7 +4,6 @@ $(".preloader").slideUp(5000);
 
 $("#banner").addClass("shrink");
 
-
 $(document).ready(function() {
     var scroll_pos = 0;
     $(document).scroll(function() {
@@ -28,7 +27,6 @@ setTimeout(function() {
 }, 4000);
 // animation slide splashscreen
 
-
 $(window).scroll(function() {
     var image = document.getElementById("navbarImg");
     if (document.documentElement.scrollTop > 86)
@@ -38,6 +36,10 @@ $(window).scroll(function() {
         image.src =
         "/assets/navbar.png";
 })
+
+const testFunction = () => {
+    
+}
 
 var swiper = new Swiper(".swiperFull", {
     // Optional parameters

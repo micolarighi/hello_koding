@@ -205,6 +205,18 @@ i {
     font-size: 22px;
 }
 
+.webinar-container {
+    min-height: 70vh;
+}
+
+.webinar-title {
+    width: 50%;
+}
+
+.webinar-img {
+    position: absolute; 
+    left: 50%;
+}
 
 /* Extra small devices (phones, 600px and down) */
 
@@ -235,6 +247,24 @@ i {
         line-height: 1.5;
     }
 
+    .webinar-container {
+        min-height: 0vh;
+        display: block !important;
+    }
+    
+    .webinar-title {
+        width: 100%;
+    }
+    
+    .webinar-img {
+        position: relative; 
+        left: 0%;
+        width: 100%;
+    }
+
+    .img-team {
+        display: none;
+    }
 
     
 }
@@ -271,6 +301,7 @@ i {
         height: 30px;
         width: auto;
     }
+  
 }
 
 
