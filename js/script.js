@@ -97,7 +97,7 @@ var swiper = new Swiper(".mySwiper", {
 // Modal Function //
 const scriptURL =
     'https://script.google.com/macros/s/AKfycby1RbCmM4mcFsdqsFeSSqwWY0jHmqAOO-WZk_TMuaB89zfmdj8KhpdgucQZtW5BVFQXQA/exec'
-const form = document.forms['condfe-form'];
+const form = document.forms['hellokoding-form'];
 const btnKirim = document.querySelector('.btn-kirim');
 const btnLoading = document.querySelector('.btn-loading');
 const myAlert = document.querySelector('.my-alert');

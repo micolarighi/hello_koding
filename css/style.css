@@ -34,7 +34,7 @@ html {
 
 }
 
-.bg-condfe,
+.bg-hellokoding,
 .alert {
     background: #488bff;
     color: white;
@@ -71,7 +71,7 @@ html {
     }
 }
 
- .team, .title-women {
+ .team, .title {
     color: #86b1fb;
 }
 .partner{
@@ -130,7 +130,7 @@ html {
     object-fit: cover;
 }
 
-.condfess-container,
+.hellokoding-container,
 .container#team,
 .container-fluid #about {
     overflow: hidden;
@@ -155,7 +155,7 @@ html {
 }
 
 #about p,
-.condfess-text {
+.hellokoding-text {
     font-weight: 300;
     text-align: left;
 }
@@ -165,7 +165,7 @@ html {
     padding: 0;
 }
 
-.condfess-text {
+.hellokoding-text {
     font-size: 20px;
 }
 
@@ -179,13 +179,13 @@ html {
     font-weight: normal;
 }
 
-.button-condfess,
-.button-condfess:hover {
+.button-hellokoding,
+.button-hellokoding:hover {
     border-color: #488bff;
     color: #488bff;
 }
 
-.button-condfess:hover {
+.button-hellokoding:hover {
     background-color: #488bff;
     color: #ffff;
 }
@@ -280,7 +280,7 @@ i {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    .condfess-header {
+    .hellokoding-header {
         font-size: 50px;
     }
     h2.text-footer {
@@ -298,7 +298,7 @@ i {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    .condfess-header {
+    .hellokoding-header {
         font-size: 50px;
     }
     h2.text-footer {
@@ -315,7 +315,7 @@ i {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    .condfess-header {
+    .hellokoding-header {
         font-size: 50px;
     }
     h2.text-footer {
@@ -331,7 +331,7 @@ i {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    .condfess-header {
+    .hellokoding-header {
         font-size: 50px;
     }
     h2.text-footer {
